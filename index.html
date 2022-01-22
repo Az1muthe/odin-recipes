@@ -1,19 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="html">
 <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
 </head>
-<body>
-    <h1> Odin Recipes</h1>
-    <img src="./images/snoopy.gif" alt="snoopy mettant une pizza au four">
-
-    <ul>
-        <li> <a href="./recipes/carbonara.html"> Carbonara</a></li>
-        <li> <a href="./recipes/Lasagna.html"> Lasagna</a></li>
-        <li> <a href="./recipes/fries.html"> Fries</a></li>
-    </ul>
+<body class="body">
+    <h1 class="title"> Odin Recipes</h1>
+    <img class = "imgsnoop" src="./images/snoopy.gif" alt="snoopy mettant une pizza au four">
+    <div class="recipes">
+        <figure class="images">
+            <a href="./recipes/carbonara.html"> <img class="img" src="./images2/carbonara.jpg" ></a>
+            <figcaption class="image-caption"> Delicious and easy carbonara !</figcaption>
+        </figure>
+        <figure class="images">
+            <a href="./recipes/Lasagna.html"> <img class="img" src="./images2/lasagna.jpg" ></a>
+            <figcaption class="image-caption"> Good ol' grandma lasagna !</figcaption>
+        </figure>
+        <figure class="images">
+            <a href="./recipes/fries.html"> <img class="img" src="./images2/fries.jpg" ></a>
+            <figcaption class="image-caption"> Who doesn't love fries ?</figcaption>
+        </figure>
+    </div>
+    <div class="odin-logo">
+        <caption class="odin-caption"> Powered by the Odin project : </caption>
+        <a href="https://www.theodinproject.com/"> <img class="img-odin" src="./images/theOdinProject.png"></a>
+    </div>
 </body>
 </html>
